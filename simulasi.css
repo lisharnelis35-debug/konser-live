@@ -1,0 +1,9 @@
+/* Tambahkan setelah landing.css */
+.sim-overlay{position:fixed;inset:0;z-index:300;background:rgba(0,0,0,.8);display:grid;place-items:center;padding:15px}
+.sim-overlay[hidden]{display:none}
+.sim-panel{background:#171222;color:#f4f1fa;width:min(100%,480px);max-height:94vh;overflow:auto;border:1px solid #4a4260;border-radius:20px;padding:25px;font-family:'DM Sans',sans-serif}
+.sim-head{display:flex;justify-content:space-between;align-items:center;gap:10px}.sim-head h2{font-size:26px;margin:0 0 12px}.sim-close{background:transparent;color:white;border:0;font-size:30px;cursor:pointer}
+.sim-panel label{display:block;margin:12px 0;font-size:14px}.sim-panel input,.sim-panel select{display:block;width:100%;padding:12px;margin-top:6px;border-radius:10px;border:1px solid #4a4260;background:#0e0b14;color:white;font:inherit}
+.sim-panel button.sim-main{width:100%;padding:13px;border:0;border-radius:25px;background:#ff5a36;color:#14101c;font-weight:bold;cursor:pointer;margin-top:14px}.sim-panel button:disabled{opacity:.5;cursor:not-allowed}
+.sim-summary{background:#261d33;padding:15px;border-radius:12px;margin:12px 0}.sim-muted{color:#c9c3d6;font-size:13px}.sim-badge{display:inline-block;background:#ffca33;color:#14101c;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:700}.sim-ticket{background:#fff;color:#191322;border-radius:18px;padding:24px;margin:15px 0;border-left:9px solid #ff5a36}.sim-ticket h3{font-size:25px;margin:8px 0}.sim-ticket p{margin:7px 0}.sim-ticket hr{border:0;border-top:2px dashed #bbb;margin:18px 0}.sim-note{font-size:12px;color:#c9c3d6}
+
